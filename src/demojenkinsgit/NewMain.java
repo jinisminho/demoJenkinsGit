@@ -9,24 +9,14 @@ package demojenkinsgit;
  *
  * @author Hoang Pham
  */
-public class DemoJenkinsGit {
+public class NewMain {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello world");
-        System.out.println("This is demo webhook jenkins github");
-        System.out.println("hellogit ");
-        System.out.println("asldkfj;laskdjf");
-        printDemo();
-    }
-    
-    static void printDemo(){
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-        }
+        System.out.println("HEY sdfagit diff");
     }
     
 }
