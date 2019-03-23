@@ -11,9 +11,10 @@ package demojenkinsgit;
  */
 public class Total {
 
-    int sum;
+    int total;
 
     public int getTotalSum(int a, int b) {
-        return sum = a + b;
+        total = a + b;
+        return total;
     }
 }
