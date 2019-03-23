@@ -16,17 +16,7 @@ public class DemoJenkinsGit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello world");
-        System.out.println("This is demo webhook jenkins github");
-        System.out.println("hellogit ");
-        System.out.println("asldkfj;laskdjf");
-        printDemo();
+        Total tmp = new Total();
+        System.out.println("2 + 5 = " + tmp.getTotalSum(2, 5));
     }
-    
-    static void printDemo(){
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-        }
-    }
-    
 }
