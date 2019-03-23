@@ -18,6 +18,6 @@ public class DemoTest {
      public void hello() {
          Total tmp = new Total();
          tmp.setTotal(2, 7);
-         assertEquals(7, tmp.getTotal());
+         assertEquals(9, tmp.getTotal());
      }
 }
