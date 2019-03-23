@@ -13,8 +13,15 @@ public class Total {
 
     int total;
 
-    public int getTotalSum(int a, int b) {
-        total = a + b;
+    public Total() {
+    }
+
+    public int getTotal() {
         return total;
     }
+
+    public void setTotal(int a, int b) {
+        this.total = a + b;
+    }
+
 }

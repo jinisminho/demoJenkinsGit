@@ -17,7 +17,7 @@ public class DemoJenkinsGit {
     public static void main(String[] args) {
         // TODO code application logic here
         Total tmp = new Total();
-        System.out.println("2 + 5 = " + tmp.getTotalSum(2, 5));
-        hello;
+        tmp.setTotal(2, 5);
+        System.out.println("2 + 5 = " + tmp.getTotal());
     }
 }
