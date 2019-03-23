@@ -14,10 +14,12 @@ import static org.junit.Assert.*;
  * @author Hoang Pham
  */
 public class DemoTest {
-     @Test
-     public void hello() {
-         Total tmp = new Total();
-         tmp.setTotal(2, 7);
-         assertEquals(9, tmp.getTotal());
-     }
+
+    @Test
+    public void hello() {
+        Total tmp = new Total();
+        tmp.setTotal(2, 7);
+        assertEquals(9, tmp.getTotal());
+
+    }
 }
